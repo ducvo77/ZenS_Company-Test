@@ -1,9 +1,7 @@
-import React from "react";
-
 interface LayoutContainerTypes {
-  children: React.ReactElement;
+  children: React.ReactElement
 }
 
 export default function LayoutContainer({ children }: LayoutContainerTypes) {
-  return <div className="px-[280px] py-4">{children}</div>;
+  return <div className='px-[280px] py-4'>{children}</div>
 }
