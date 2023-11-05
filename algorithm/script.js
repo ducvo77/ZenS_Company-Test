@@ -25,7 +25,7 @@ function miniMaxSum(arr) {
 
 miniMaxSum([1, 3, 5, 7, 9]);
 
-// Bouns:
+// ----------------Bouns----------------
 // + Count total of array
 function CountTotalOfArray(arr) {
   let sum = 0;
