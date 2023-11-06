@@ -10,10 +10,10 @@ export default function Header() {
           alt="Logo"
           width={100}
           height={100}
-          className="w-16 h-16"
+          className="lg:ml-[72px] w-16 h-16"
         />
       </Link>
-      <div className="flex items-center gap-2 text-right">
+      <div className="flex items-center gap-[10px] text-right">
         <div className="flex flex-col">
           <h3 className="text-sm italic text-[#A8A8A8]">Handicrafted by</h3>
           <p className="text-sm">Jim HLS</p>

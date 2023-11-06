@@ -53,18 +53,16 @@ export default function ContentHome() {
         </p>
       </div>
 
-      <div className="xl:px-80 lg:px-52 md:px-24 sm:px-8 px-3 flex flex-col xl:gap-12 md:gap-10 gap-6 xl:mt-16 md:mt-12 mt-6">
+      <div className="xl:px-[312px] lg:px-52 md:px-24 sm:px-8 px-3 flex flex-col xl:gap-12 md:gap-[50px] gap-6 xl:mt-[70px] md:mt-12 mt-6">
         {jokeIndex !== null && (
-          <p className="text-[#6C6C6C] leading-6 text-justify">
-            {JOKES_CONTENT[jokeIndex]}
-          </p>
+          <p className="text-[#6C6C6C] leading-7">{JOKES_CONTENT[jokeIndex]}</p>
         )}
         <span className="h-[1px] bg-gray-200 mx-[100px]"></span>
         <div className="flex flex-col sm:flex-row justify-center sm:gap-7 gap-3">
           <button
             disabled={isFinish}
             onClick={likeFunny}
-            className={`px-16 py-3 shadow-md bg-[#2C7EDB] text-white text-[15px] ${
+            className={`min-w-[270px] min-h-[50px] px-16 py-3 shadow-md bg-[#2C7EDB] text-white text-[15px] ${
               isFinish ? 'opacity-60' : ''
             }`}
           >
